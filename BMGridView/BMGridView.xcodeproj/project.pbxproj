@@ -1,0 +1,340 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C43E1FF91CC7651800E3F4CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C43E1FF81CC7651800E3F4CA /* main.m */; };
+		C43E1FFC1CC7651800E3F4CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C43E1FFB1CC7651800E3F4CA /* AppDelegate.m */; };
+		C43E1FFF1CC7651800E3F4CA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C43E1FFE1CC7651800E3F4CA /* ViewController.m */; };
+		C43E20041CC7651800E3F4CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C43E20031CC7651800E3F4CA /* Assets.xcassets */; };
+		C43E20071CC7651800E3F4CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C43E20051CC7651800E3F4CA /* LaunchScreen.storyboard */; };
+		C449002E1CC9134A001D9917 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C449002D1CC9134A001D9917 /* TestViewController.m */; };
+		C4527DBE1CC8EADA00ABA9E2 /* BMButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C4527DBA1CC8EADA00ABA9E2 /* BMButton.m */; };
+		C4527DBF1CC8EADA00ABA9E2 /* BMGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = C4527DBC1CC8EADA00ABA9E2 /* BMGridView.m */; };
+		C4527DC21CC8EB3700ABA9E2 /* BMButtonConst.m in Sources */ = {isa = PBXBuildFile; fileRef = C4527DC11CC8EB3700ABA9E2 /* BMButtonConst.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C43E1FF41CC7651800E3F4CA /* BMGridView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BMGridView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C43E1FF81CC7651800E3F4CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C43E1FFA1CC7651800E3F4CA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C43E1FFB1CC7651800E3F4CA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C43E1FFD1CC7651800E3F4CA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C43E1FFE1CC7651800E3F4CA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C43E20031CC7651800E3F4CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C43E20061CC7651800E3F4CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C43E20081CC7651800E3F4CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C449002C1CC9134A001D9917 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		C449002D1CC9134A001D9917 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		C4527DB91CC8EADA00ABA9E2 /* BMButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMButton.h; sourceTree = "<group>"; };
+		C4527DBA1CC8EADA00ABA9E2 /* BMButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMButton.m; sourceTree = "<group>"; };
+		C4527DBB1CC8EADA00ABA9E2 /* BMGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMGridView.h; sourceTree = "<group>"; };
+		C4527DBC1CC8EADA00ABA9E2 /* BMGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMGridView.m; sourceTree = "<group>"; };
+		C4527DC01CC8EB3700ABA9E2 /* BMButtonConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMButtonConst.h; sourceTree = "<group>"; };
+		C4527DC11CC8EB3700ABA9E2 /* BMButtonConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMButtonConst.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C43E1FF11CC7651800E3F4CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C43E1FEB1CC7651800E3F4CA = {
+			isa = PBXGroup;
+			children = (
+				C4527DB81CC8EADA00ABA9E2 /* BMButton */,
+				C43E1FF61CC7651800E3F4CA /* Classes */,
+				C43E1FF51CC7651800E3F4CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C43E1FF51CC7651800E3F4CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C43E1FF41CC7651800E3F4CA /* BMGridView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C43E1FF61CC7651800E3F4CA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C43E1FFA1CC7651800E3F4CA /* AppDelegate.h */,
+				C43E1FFB1CC7651800E3F4CA /* AppDelegate.m */,
+				C43E1FFD1CC7651800E3F4CA /* ViewController.h */,
+				C43E1FFE1CC7651800E3F4CA /* ViewController.m */,
+				C449002C1CC9134A001D9917 /* TestViewController.h */,
+				C449002D1CC9134A001D9917 /* TestViewController.m */,
+				C43E20031CC7651800E3F4CA /* Assets.xcassets */,
+				C43E20051CC7651800E3F4CA /* LaunchScreen.storyboard */,
+				C43E20081CC7651800E3F4CA /* Info.plist */,
+				C43E1FF71CC7651800E3F4CA /* Supporting Files */,
+			);
+			name = Classes;
+			path = BMGridView;
+			sourceTree = "<group>";
+		};
+		C43E1FF71CC7651800E3F4CA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C43E1FF81CC7651800E3F4CA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C4527DB81CC8EADA00ABA9E2 /* BMButton */ = {
+			isa = PBXGroup;
+			children = (
+				C4527DB91CC8EADA00ABA9E2 /* BMButton.h */,
+				C4527DBA1CC8EADA00ABA9E2 /* BMButton.m */,
+				C4527DBB1CC8EADA00ABA9E2 /* BMGridView.h */,
+				C4527DBC1CC8EADA00ABA9E2 /* BMGridView.m */,
+				C4527DC01CC8EB3700ABA9E2 /* BMButtonConst.h */,
+				C4527DC11CC8EB3700ABA9E2 /* BMButtonConst.m */,
+			);
+			name = BMButton;
+			path = BMGridView/BMButton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C43E1FF31CC7651800E3F4CA /* BMGridView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C43E200B1CC7651800E3F4CA /* Build configuration list for PBXNativeTarget "BMGridView" */;
+			buildPhases = (
+				C43E1FF01CC7651800E3F4CA /* Sources */,
+				C43E1FF11CC7651800E3F4CA /* Frameworks */,
+				C43E1FF21CC7651800E3F4CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BMGridView;
+			productName = BMButton;
+			productReference = C43E1FF41CC7651800E3F4CA /* BMGridView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C43E1FEC1CC7651800E3F4CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Xiu;
+				TargetAttributes = {
+					C43E1FF31CC7651800E3F4CA = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = C43E1FEF1CC7651800E3F4CA /* Build configuration list for PBXProject "BMGridView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C43E1FEB1CC7651800E3F4CA;
+			productRefGroup = C43E1FF51CC7651800E3F4CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C43E1FF31CC7651800E3F4CA /* BMGridView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C43E1FF21CC7651800E3F4CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C43E20071CC7651800E3F4CA /* LaunchScreen.storyboard in Resources */,
+				C43E20041CC7651800E3F4CA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C43E1FF01CC7651800E3F4CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4527DC21CC8EB3700ABA9E2 /* BMButtonConst.m in Sources */,
+				C4527DBE1CC8EADA00ABA9E2 /* BMButton.m in Sources */,
+				C449002E1CC9134A001D9917 /* TestViewController.m in Sources */,
+				C43E1FFF1CC7651800E3F4CA /* ViewController.m in Sources */,
+				C43E1FFC1CC7651800E3F4CA /* AppDelegate.m in Sources */,
+				C43E1FF91CC7651800E3F4CA /* main.m in Sources */,
+				C4527DBF1CC8EADA00ABA9E2 /* BMGridView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C43E20051CC7651800E3F4CA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C43E20061CC7651800E3F4CA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C43E20091CC7651800E3F4CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jinchao Sun (YN624G2X5Z)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jinchao Sun (YN624G2X5Z)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "e1f005be-7e01-4a82-818a-ff25ee8eee55";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C43E200A1CC7651800E3F4CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jinchao Sun (YN624G2X5Z)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jinchao Sun (YN624G2X5Z)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "e1f005be-7e01-4a82-818a-ff25ee8eee55";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C43E200C1CC7651800E3F4CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jinchao Sun (YN624G2X5Z)";
+				INFOPLIST_FILE = BMGridView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zerosoft.iPhone;
+				PRODUCT_NAME = BMGridView;
+				PROVISIONING_PROFILE = "e1f005be-7e01-4a82-818a-ff25ee8eee55";
+			};
+			name = Debug;
+		};
+		C43E200D1CC7651800E3F4CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jinchao Sun (YN624G2X5Z)";
+				INFOPLIST_FILE = BMGridView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zerosoft.iPhone;
+				PRODUCT_NAME = BMGridView;
+				PROVISIONING_PROFILE = "e1f005be-7e01-4a82-818a-ff25ee8eee55";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C43E1FEF1CC7651800E3F4CA /* Build configuration list for PBXProject "BMGridView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C43E20091CC7651800E3F4CA /* Debug */,
+				C43E200A1CC7651800E3F4CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C43E200B1CC7651800E3F4CA /* Build configuration list for PBXNativeTarget "BMGridView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C43E200C1CC7651800E3F4CA /* Debug */,
+				C43E200D1CC7651800E3F4CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C43E1FEC1CC7651800E3F4CA /* Project object */;
+}
