@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C41DDA651CC9FE2100F3E57F /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C41DDA641CC9FE2100F3E57F /* SecondViewController.m */; };
+		C41DDA681CC9FF9900F3E57F /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C41DDA671CC9FF9900F3E57F /* ThirdViewController.m */; };
 		C43E1FF91CC7651800E3F4CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C43E1FF81CC7651800E3F4CA /* main.m */; };
 		C43E1FFC1CC7651800E3F4CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C43E1FFB1CC7651800E3F4CA /* AppDelegate.m */; };
 		C43E1FFF1CC7651800E3F4CA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C43E1FFE1CC7651800E3F4CA /* ViewController.m */; };
@@ -19,6 +21,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C41DDA631CC9FE2100F3E57F /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		C41DDA641CC9FE2100F3E57F /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		C41DDA661CC9FF9900F3E57F /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		C41DDA671CC9FF9900F3E57F /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 		C43E1FF41CC7651800E3F4CA /* BMGridView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BMGridView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C43E1FF81CC7651800E3F4CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C43E1FFA1CC7651800E3F4CA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -75,6 +81,10 @@
 				C43E1FFE1CC7651800E3F4CA /* ViewController.m */,
 				C449002C1CC9134A001D9917 /* TestViewController.h */,
 				C449002D1CC9134A001D9917 /* TestViewController.m */,
+				C41DDA631CC9FE2100F3E57F /* SecondViewController.h */,
+				C41DDA641CC9FE2100F3E57F /* SecondViewController.m */,
+				C41DDA661CC9FF9900F3E57F /* ThirdViewController.h */,
+				C41DDA671CC9FF9900F3E57F /* ThirdViewController.m */,
 				C43E20031CC7651800E3F4CA /* Assets.xcassets */,
 				C43E20051CC7651800E3F4CA /* LaunchScreen.storyboard */,
 				C43E20081CC7651800E3F4CA /* Info.plist */,
@@ -179,6 +189,8 @@
 				C4527DBE1CC8EADA00ABA9E2 /* BMButton.m in Sources */,
 				C449002E1CC9134A001D9917 /* TestViewController.m in Sources */,
 				C43E1FFF1CC7651800E3F4CA /* ViewController.m in Sources */,
+				C41DDA651CC9FE2100F3E57F /* SecondViewController.m in Sources */,
+				C41DDA681CC9FF9900F3E57F /* ThirdViewController.m in Sources */,
 				C43E1FFC1CC7651800E3F4CA /* AppDelegate.m in Sources */,
 				C43E1FF91CC7651800E3F4CA /* main.m in Sources */,
 				C4527DBF1CC8EADA00ABA9E2 /* BMGridView.m in Sources */,

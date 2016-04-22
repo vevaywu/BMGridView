@@ -9,20 +9,31 @@
 #import "BMGridView.h"
 #import "BMButton.h"
 
+@interface BMGridView()
+
+@end
+
 @implementation BMGridView
 
-- (void)setDataArray:(NSMutableArray *)dataArray
+- (void)setDelegate:(id<GridClickDelegate>)delegate
 {
-    _dataArray = dataArray;
-    
-    int i = 0;
-    for (NSString *item in dataArray) {
-        BMButton *button = [[BMButton alloc]initWithTitle:item];
-        button.tag = i++;
+    _delegate = delegate;
+}
+
+- (void)setDataSource:(id<GridViewDataSource>)dataSource
+{
+    _dataSource = dataSource;
+    [self initButton];
+}
+
+- (void)initButton
+{
+    for (int index = 0; index< [_dataSource numberOfPositionsInGridView:self]; index++) {
+        BMButton *button = [[BMButton alloc]initWithTitle:[_dataSource gridView:self titleNameInPosition:index]];
+        button.position = index;
         [self addSubview:button];
         button.adjustsButtonSizeToFitWidth = YES;
-        NSInteger index = arc4random()%3;
-        button.image = [NSString stringWithFormat:@"icon%ld",(long)index];
+        button.image = [UIImage imageNamed:[_dataSource gridView:self iconNameInPosition:index]];
         [button addTarget:self action:@selector(buttonClickAction:)];
     }
 }

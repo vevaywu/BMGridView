@@ -16,9 +16,11 @@
 
 @property (nonatomic, assign) CGFloat minimumPressDuration;
 
-@property (nonatomic, copy) NSString *image;
+@property (nonatomic, strong) UIImage *image;
 
 @property (nonatomic, copy) NSString *title;
+
+@property (nonatomic, assign) NSInteger position;
 
 - (instancetype)initWithTitle:(NSString*)title;
 

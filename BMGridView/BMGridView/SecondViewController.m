@@ -1,26 +1,24 @@
 //
-//  TestViewController.m
-//  BMButton
+//  SecondViewController.m
+//  BMGridView
 //
-//  Created by Bob on 16/4/21.
-//  Copyright © 2016年 Bob. All rights reserved.
+//  Created by Xiu on 16/4/22.
+//  Copyright © 2016年 Xiu. All rights reserved.
 //
 
-#import "TestViewController.h"
-#import "BMButtonConst.h"
+#import "SecondViewController.h"
 
-@interface TestViewController ()
+@interface SecondViewController ()
 
 @end
 
-@implementation TestViewController
+@implementation SecondViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.view.backgroundColor = [UIColor whiteColor];
     NSLog(@"Class Name:%@",NSStringFromClass([self class]));
-    
-    self.view.backgroundColor = RGBColor(arc4random()%255, arc4random()%255, arc4random()%255);
 }
 
 - (void)didReceiveMemoryWarning {

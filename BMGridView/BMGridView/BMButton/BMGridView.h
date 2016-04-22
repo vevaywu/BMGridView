@@ -11,16 +11,28 @@
 
 @class BMButton;
 
+@class BMGridView;
+
 @protocol GridClickDelegate <NSObject>
 
 - (void)gridClickAction:(BMButton*)button;
 
 @end
 
+@protocol GridViewDataSource <NSObject>
+
+- (NSString*)gridView:(BMGridView *)tableView titleNameInPosition:(NSInteger)position;
+
+- (NSString*)gridView:(BMGridView *)tableView iconNameInPosition:(NSInteger)position;
+
+- (NSInteger)numberOfPositionsInGridView:(BMGridView *)BMGridView;
+
+@end
+
 @interface BMGridView : UIView
 
-@property (nonatomic, strong) NSMutableArray *dataArray;
+@property (nonatomic, weak, nullable) id<GridClickDelegate> delegate;
 
-@property (nonatomic, assign) id<GridClickDelegate> delegate;
+@property (nonatomic, weak, nullable) id<GridViewDataSource> dataSource;
 
 @end

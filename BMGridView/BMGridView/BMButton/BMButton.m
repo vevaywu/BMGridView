@@ -78,14 +78,14 @@
     return self;
 }
 
-- (instancetype)initWithTitle:(NSString*)title withImage:(NSString*)imageName
+- (instancetype)initWithTitle:(NSString*)title withImage:(UIImage*)image
 {
     self = [super init];
     if (self) {
         [self initSubView];
         [self initParams];
         _title = title;
-        _image = imageName;
+        _image = image;
         self.titleLabel.text = title;
     }
     return self;
@@ -128,12 +128,18 @@
     return _imageView;
 }
 
-- (void)setImage:(NSString *)image
+- (void)setImage:(UIImage *)image
 {
     _image = image;
-    self.imageView.image = [UIImage imageNamed:image];
+    self.imageView.image = image;
     self.imageView.center = CGPointMake(ButtonWidth /2, ButtonHeight /3);
     self.title = _title;
+}
+
+- (void)setPosition:(NSInteger)position
+{
+    _position = position;
+    self.tag = position;
 }
 
 #pragma mark- Adjusts Width
