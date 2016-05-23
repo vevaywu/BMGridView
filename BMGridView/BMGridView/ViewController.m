@@ -21,6 +21,8 @@
 
 @property (nonatomic, strong) NSMutableArray *imageArray;
 
+@property (nonatomic, strong) NSMutableArray *msgArray;
+
 @end
 
 @implementation ViewController
@@ -54,6 +56,7 @@
 {
     _titleArray = @[@"pre_order",@"cus_manager",@"shekong",@"bangdan",@"today_caiwu",@"detial_7",@"shenpi",@"detial_2",@"detial_4", @"shekong",  @"detial_9"].mutableCopy;
     _imageArray = @[@"pre_order",@"cus_manager",@"shekong",@"bangdan",@"today_caiwu",@"detial_7",@"shenpi",@"detial_2",@"detial_4", @"shekong",  @"detial_9"].mutableCopy;
+    _msgArray = @[@YES,@NO,@YES,@NO,@YES,@NO,@YES,@NO,@YES,@NO,@YES].mutableCopy;
 }
 
 #pragma mark- GridClickDelegate
@@ -110,6 +113,11 @@
 - (NSString *)gridView:(BMGridView *)tableView iconNameInPosition:(NSInteger)position
 {
     return _imageArray[position];
+}
+
+- (BOOL)gridView:(BMGridView *)tableView hideRedDotInPosition:(NSInteger)position
+{
+    return [_msgArray[position]boolValue];
 }
 
 @end

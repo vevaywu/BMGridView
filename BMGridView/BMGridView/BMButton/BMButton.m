@@ -13,6 +13,8 @@
 
 @property (nonatomic, strong) UILabel *titleLabel;
 
+@property (nonatomic, strong) UILabel *redDotLabel;
+
 @property (nonatomic, strong) UIImageView *imageView;
 
 @property (nonatomic, strong) NSDate *startTime;
@@ -95,6 +97,7 @@
 {
     [self addSubview:self.imageView];
     [self addSubview:self.titleLabel];
+    [self addSubview:self.redDotLabel];
 }
 
 - (void)initParams
@@ -110,6 +113,18 @@
         _titleLabel.textAlignment = NSTextAlignmentCenter;
 	}
 	return _titleLabel;
+}
+
+- (UILabel *)redDotLabel {
+    if(_redDotLabel == nil) {
+        _redDotLabel = [[UILabel alloc] init];
+        _redDotLabel.backgroundColor = [UIColor redColor];
+        _redDotLabel.frame = CGRectMake(10, 5, 12, 12);
+        _redDotLabel.layer.cornerRadius = 6;
+        _redDotLabel.layer.masksToBounds = YES;
+        _redDotLabel.hidden = YES;
+    }
+    return _redDotLabel;
 }
 
 - (void)setTitle:(NSString *)title
@@ -140,6 +155,12 @@
 {
     _position = position;
     self.tag = position;
+}
+
+- (void)setHideRedDot:(BOOL)hideRedDot
+{
+    _hideRedDot = hideRedDot;
+    _redDotLabel.hidden = hideRedDot;
 }
 
 #pragma mark- Adjusts Width

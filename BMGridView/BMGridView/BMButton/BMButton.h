@@ -14,6 +14,8 @@
 
 @property (nonatomic, assign) BOOL editing;
 
+@property (nonatomic, assign) BOOL hideRedDot;
+
 @property (nonatomic, assign) CGFloat minimumPressDuration;
 
 @property (nonatomic, strong) UIImage *image;

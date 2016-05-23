@@ -35,6 +35,7 @@
         button.adjustsButtonSizeToFitWidth = YES;
         button.image = [UIImage imageNamed:[_dataSource gridView:self iconNameInPosition:index]];
         [button addTarget:self action:@selector(buttonClickAction:)];
+        [button setHideRedDot:[_dataSource gridView:self hideRedDotInPosition:index]];
     }
 }
 

@@ -27,6 +27,8 @@
 
 - (NSInteger)numberOfPositionsInGridView:(BMGridView *)BMGridView;
 
+- (BOOL)gridView:(BMGridView *)tableView hideRedDotInPosition:(NSInteger)position;
+
 @end
 
 @interface BMGridView : UIView
